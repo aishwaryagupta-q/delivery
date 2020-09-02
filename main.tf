@@ -1,9 +1,9 @@
 provider "google" {
   version = "3.5.0"
+  zone    = "us-central1-c" //enter zone
 
   project = "training-freshers" //enter project name
   region  = "us-central1" //enter correct location
-#   zone    = "us-central1-c" //enter zone
 }
 
 
